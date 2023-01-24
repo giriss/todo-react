@@ -7,6 +7,7 @@ function TodoApp() {
 
   return (
     <main className="container">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/giriss/todo-react">→ View code on GitHub</a>
       <h1>React Todo App</h1>
       <TodoAdder
         onAdd={(title) => { setTodos([...todos, { title }]); }}
